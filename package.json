@@ -1,0 +1,14 @@
+{
+  "name": "studiot",
+  "version": "0.1.0",
+  "description": "Sascha Thompson's personal website",
+  "scripts": {
+    "serve": "live-server src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "-"
+  },
+  "author": "Evan Timms",
+  "license": "ISC"
+}
