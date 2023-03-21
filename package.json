@@ -3,12 +3,16 @@
   "version": "0.1.0",
   "description": "Sascha Thompson's personal website",
   "scripts": {
-    "serve": "live-server src"
+    "serve": "live-server src",
+    "tailwind": "npx tailwindcss -i ./src/css/input.css -o ./src/css/main.css --watch"
   },
   "repository": {
     "type": "git",
     "url": "-"
   },
   "author": "Evan Timms",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.2.7"
+  }
 }

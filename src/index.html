@@ -5,11 +5,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/fonts.css">
-    <link rel="stylesheet" href="css/colors.css">
+    <link rel="stylesheet" href="css/animations.css">
     <title>STUDIO.T</title>
 </head>
-<body>
-    <div class="st-title-24"> Hello World</div>
+<body class="font-default bg-zinc-50">
+    <!-- // TODO: Needs to be moved outside of main class with position absolute -->
+    <div id="navbar" class="p-4 w-screen fixed">
+        <div class="grid grid-cols-3">
+            <h1 class="text-sm justify-self-start text-zinc-700">Studio.T</h1>
+            <div class="flex flex-col justify-center items-center">
+                <p id="navbar-contact"class="cursor-pointer text-sm uppercase justify-self-center text-zinc-700">contact</p>
+                <div id="navbar-contact-underline" class="w-0 h-px bg-zinc-900"></div>
+            </div>
+        </div>
+    </div>
+    <div id="intro" class="h-screen w-screen overflow-y-hidden absolute top-8">
+        <div class="flex flex-col h-full">
+            <div>
+                <div class="mt-10 w-screen flex flex-col">
+                    <div class="h-1 my-2 bg-zinc-900"></div>
+                    <div class="scroll-container flex flex-row overflow-x-hidden">
+                        <div class="scroll-element text-5xl mx-2 uppercase font-bold text-zinc-900">studio.t</div>
+                        <div class="scroll-element text-5xl mx-2 uppercase font-bold text-zinc-900">studio.t</div>
+                        <div class="scroll-element text-5xl mx-2 uppercase font-bold text-zinc-900">studio.t</div>
+                        <div class="scroll-element text-5xl mx-2 uppercase font-bold text-zinc-900">studio.t</div>
+                        <div class="scroll-element text-5xl mx-2 uppercase font-bold text-zinc-900">studio.t</div>
+                        <div class="scroll-element text-5xl mx-2 uppercase font-bold text-zinc-900">studio.t</div>
+                        <div class="scroll-element text-5xl mx-2 uppercase font-bold text-zinc-900">studio.t</div>
+                        <div class="scroll-element text-5xl mx-2 uppercase font-bold text-zinc-900">studio.t</div>
+                        <div class="scroll-element text-5xl mx-2 uppercase font-bold text-zinc-900">studio.t</div>
+                        <div class="scroll-element text-5xl mx-2 uppercase font-bold text-zinc-900">studio.t</div>
+                        <div class="scroll-element text-5xl mx-2 uppercase font-bold text-zinc-900">studio.t</div>
+                        <div class="scroll-element text-5xl mx-2 uppercase font-bold text-zinc-900">studio.t</div>
+                        <div class="scroll-element text-5xl mx-2 uppercase font-bold text-zinc-900">studio.t</div>
+                        <div class="scroll-element text-5xl mx-2 uppercase font-bold text-zinc-900">studio.t</div>
+                        <div class="scroll-element text-5xl mx-2 uppercase font-bold text-zinc-900">studio.t</div>
+                        <div class="scroll-element text-5xl mx-2 uppercase font-bold text-zinc-900">studio.t</div>
+                        <div class="scroll-element text-5xl mx-2 uppercase font-bold text-zinc-900">studio.t</div>
+                        <div class="scroll-element text-5xl mx-2 uppercase font-bold text-zinc-900">studio.t</div>
+                        <div class="scroll-element text-5xl mx-2 uppercase font-bold text-zinc-900">studio.t</div>
+
+                    </div>
+                    <div class="h-1 my-2 bg-zinc-900"></div>
+                </div>
+            </div>
+            <div class="p-4 my-8 w-full flex flex-col justify-start">
+                <img src="assets/intro.jpg" class="h-full max-h-96 w-full object-cover object-center aspect-square" alt="intro">
+                <div class="text-sm italic text-zinc-500 py-1">Issue no.1</div>
+            </div>
+            <div class="flex-grow">
+                <div class="grid grid-rows-3 justify-center items-center h-full">
+                    <svg class="cursor-pointer stroke-zinc-800" width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <line x1="20.7759" y1="7.74139" x2="20.7759" y2="29.9138" stroke-linecap="round"/>
+                        <line x1="9.43397" y1="18.5221" x2="21.0159" y2="30.104" stroke-linecap="round"/>
+                        <line x1="32.5649" y1="18.0864" x2="20.983" y2="29.6683" stroke-linecap="round"/>
+                        <circle cx="21" cy="21" r="20.5"/>
+                    </svg>                    
+                    
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

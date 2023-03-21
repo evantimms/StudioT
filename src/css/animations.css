@@ -1,0 +1,23 @@
+.scroll-element {
+    display: flex;
+    white-space: nowrap;
+    animation: scroll 20s linear infinite;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+#navbar-contact:hover  {
+    font-style: italic;
+}
+
+#navbar-contact:hover ~ #navbar-contact-underline {
+    transition: width 0.5s ease-in-out;
+    width: 4rem;
+}
