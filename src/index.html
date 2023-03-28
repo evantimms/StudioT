@@ -8,18 +8,17 @@
     <link rel="stylesheet" href="css/animations.css">
     <title>STUDIO.T</title>
 </head>
-<body class="font-default bg-zinc-50">
-    <!-- // TODO: Needs to be moved outside of main class with position absolute -->
-    <div id="navbar" class="p-4 w-screen fixed">
+<body class="font-default text-zinc-800">
+    <div id="navbar" class="p-4 w-screen fixed top-0 z-10">
         <div class="grid grid-cols-3">
-            <h1 class="text-sm justify-self-start text-zinc-700">Studio.T</h1>
+            <h1 class="text-sm justify-self-start">Studio.T</h1>
             <div class="flex flex-col justify-center items-center">
-                <p id="navbar-contact"class="cursor-pointer text-sm uppercase justify-self-center text-zinc-700">contact</p>
+                <p id="navbar-contact"class="cursor-pointer text-sm uppercase justify-self-center">contact</p>
                 <div id="navbar-contact-underline" class="w-0 h-px bg-zinc-900"></div>
             </div>
         </div>
     </div>
-    <div id="intro" class="h-screen w-screen overflow-y-hidden absolute top-8">
+    <div id="intro" class="h-screen w-screen bg-zinc-50">
         <div class="flex flex-col h-full">
             <div>
                 <div class="mt-10 w-screen flex flex-col">
@@ -64,6 +63,151 @@
                     
                 </div>
             </div>
+        </div>
+    </div>
+    <div id="video" class="h-screen w-screen bg-yellow-500">
+        <div class="flex flex-col h-full pt-16">
+            <div class="flex justify-center items-center p-8 h-5/6 mb-8">
+                <img src="assets/video.jpeg" class="w-full h-full object-cover aspect-[9/16]" />
+            </div>
+            <div class="flex-grow ">
+                <div class="grid grid-rows-3 justify-center items-center h-full">
+                    <svg class="cursor-pointer stroke-zinc-800" width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <line x1="20.7759" y1="7.74139" x2="20.7759" y2="29.9138" stroke-linecap="round"/>
+                        <line x1="9.43397" y1="18.5221" x2="21.0159" y2="30.104" stroke-linecap="round"/>
+                        <line x1="32.5649" y1="18.0864" x2="20.983" y2="29.6683" stroke-linecap="round"/>
+                        <circle cx="21" cy="21" r="20.5"/>
+                    </svg>                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="work" class="h-screen w-screen pt-12 bg-yellow-500">
+        <div class="flex flex-col h-full">
+                <div class="text-zinc-900 text-2xl racking-wide uppercase px-4">
+                    work
+                </div>
+            <div class="flex flex-col">
+                <div class="h-px w-full bg-zinc-900 my-2"></div>
+                    <div class="px-4">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+                        laboris nisi ut aliquip ex ea commodo consequat.
+                    </div>
+                <div class="h-px w-full bg-zinc-900 mt-2"></div>
+            </div>
+            <div class="flex flex-row grow">
+                <div class="w-1/2 flex flex-col">
+                    <img src="assets/work1.png" class="w-full"/>
+                    <div class="my-8 px-2">
+                        Adipiscing enim eu turpis egestas pretium aenean pharetra magna. Vitae nunc sed
+                        velit dignissim. Amet dictum sit amet justo donec enim.
+                    </div>
+                    <div class="flex grow justify-start items-center px-2">
+                        <svg class="cursor-pointer stroke-zinc-800" width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <line x1="20.7759" y1="7.74139" x2="20.7759" y2="29.9138" stroke-linecap="round"/>
+                            <line x1="9.43397" y1="18.5221" x2="21.0159" y2="30.104" stroke-linecap="round"/>
+                            <line x1="32.5649" y1="18.0864" x2="20.983" y2="29.6683" stroke-linecap="round"/>
+                            <circle cx="21" cy="21" r="20.5"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="w-px h-full bg-zinc-900"></div>
+                <div class="w-1/2 flex flex-col justify-center items-between">
+                    <div class="my-8 px-2">Pretium quam vulputate dignissim suspendisse in.</div>
+                    <div class="my-8 px-2">Pretium quam vulputate dignissim suspendisse in. Facilisis gravida neque convallis a cras semper auctor neque vitae.</div>
+                    <img src="assets/work2.png" class="w-full"/>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="work-two" class="h-screen w-screen bg-yellow-500">
+        <div class="grid col-span-3 h-full">
+            <div class="flex flex-col h-5/6 justify-between items-center">
+                <div class="h-px w-full bg-zinc-900"></div>
+                <div class="px-4">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                    ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+                    laboris nisi ut aliquip ex ea commodo consequat.
+                </div>
+                <div class="w-1/2">
+                    <img src="assets/work3.jpeg" class="w-full object-cover aspect-square"/>
+                </div>
+            </div>
+            <div class="flex grow justify-center items-center px-2">
+                <svg class="cursor-pointer stroke-zinc-800" width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <line x1="20.7759" y1="7.74139" x2="20.7759" y2="29.9138" stroke-linecap="round"/>
+                    <line x1="9.43397" y1="18.5221" x2="21.0159" y2="30.104" stroke-linecap="round"/>
+                    <line x1="32.5649" y1="18.0864" x2="20.983" y2="29.6683" stroke-linecap="round"/>
+                    <circle cx="21" cy="21" r="20.5"/>
+                </svg>
+            </div>
+        </div>
+    </div>
+    <div id="contact" class="h-screen w-screen bg-zinc-800 text-zinc-100">
+        <div class="flex flex-col h-full pt-12">
+            <div class="w-full h-px bg-slate-100"></div>
+            <div class="flex flex-row">
+                <div class="flex flex-col w-3/5">
+                    <img class="w-full" src="assets/contact.png"/>
+                    <div class="text-sm px-2 my-8">Turpis egestas maecenas pharetra convallis posuere morbi. Risus in hendrerit gravida rutrum quisque non tellus orci.</div>
+                </div>
+                <div class="w-px h-full bg-slate-100"></div>
+                <div class="flex flex-col w-2/5">
+                    <div class="text-sm px-2 my-8">Turpis egestas maecenas pharetra convallis posuere morbi. Risus in hendrerit gravida rutrum quisque non tellus orci.</div>
+                    <div class="text-sm px-2 my-8">Turpis egestas maecenas pharetra convallis posuere morbi. Risus in hendrerit gravida rutrum quisque non tellus orci.</div>
+                </div>
+            </div>
+            <div class="w-full h-px bg-slate-100"></div>
+            <div class="flex flex-col grow justify-start items-between p-4">
+                <div class="tracking-wide uppercase text-slate-100 text-2xl">
+                    contact me
+                </div>
+                <div class="flex flex-col">
+                    <div class="text-sm my-2">(1) 403-993-6409</div>
+                    <div class="text-sm my-2">studio.t@gmail.com</div>
+                    <div class="text-sm my-2">Instragram.</div>
+                    <div class="text-sm my-2">Linkedin</div>
+                </div>
+            </div>
+            <footer class="bg-zinc-50 scroll-container flex flex-row overflow-x-hidden">
+                <div class="scroll-element text-lg text-zinc-900 tracking-wide uppercase text-center">
+                    © 2023 Studio.T
+                </div>
+                <div class="scroll-element mx-1 text-lg text-zinc-900 tracking-wide uppercase text-center">
+                    © 2023 Studio.T
+                </div>
+                <div class="scroll-element mx-1 text-lg text-zinc-900 tracking-wide uppercase text-center">
+                    © 2023 Studio.T
+                </div>
+                <div class="scroll-element mx-1 text-lg text-zinc-900 tracking-wide uppercase text-center">
+                    © 2023 Studio.T
+                </div>
+                <div class="scroll-element mx-1 text-lg text-zinc-900 tracking-wide uppercase text-center">
+                    © 2023 Studio.T
+                </div>
+                <div class="scroll-element mx-1 text-lg text-zinc-900 tracking-wide uppercase text-center">
+                    © 2023 Studio.T
+                </div>
+                <div class="scroll-element mx-1 text-lg text-zinc-900 tracking-wide uppercase text-center">
+                    © 2023 Studio.T
+                </div>
+                <div class="scroll-element mx-1 text-lg text-zinc-900 tracking-wide uppercase text-center">
+                    © 2023 Studio.T
+                </div>
+                <div class="scroll-element mx-1 text-lg text-zinc-900 tracking-wide uppercase text-center">
+                    © 2023 Studio.T
+                </div>
+                <div class="scroll-element mx-1 text-lg text-zinc-900 tracking-wide uppercase text-center">
+                    © 2023 Studio.T
+                </div>
+                <div class="scroll-element mx-1 text-lg text-zinc-900 tracking-wide uppercase text-center">
+                    © 2023 Studio.T
+                </div>
+                <div class="scroll-element mx-1 text-lg text-zinc-900 tracking-wide uppercase text-center">
+                    © 2023 Studio.T
+                </div>
+            </footer>
         </div>
     </div>
 </body>
